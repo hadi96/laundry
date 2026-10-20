@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kebijakan Privasi — Laundry</title>
-  <meta name="description" content="Kebijakan privasi aplikasi Laundry (manajemen bisnis laundry) untuk pengguna Android." />
+  <title>Kebijakan Privasi — Capseran Laundry POS</title>
+  <meta name="description" content="Kebijakan privasi aplikasi Capseran Laundry POS untuk pengguna Android." />
   <style>
     :root {
       --bg: #0f1419;
@@ -56,15 +56,6 @@
       padding: 1.25rem 1.35rem;
       margin: 1.25rem 0;
     }
-    .notice {
-      background: rgba(61, 156, 245, 0.12);
-      border: 1px solid rgba(61, 156, 245, 0.35);
-      border-radius: 10px;
-      padding: 1rem 1.1rem;
-      font-size: 0.92rem;
-      margin-bottom: 1.5rem;
-    }
-    .notice strong { color: #b8d9ff; }
     footer {
       margin-top: 2.5rem;
       padding-top: 1.5rem;
@@ -78,16 +69,12 @@
   <div class="wrap">
     <header>
       <h1>Kebijakan Privasi</h1>
-      <p class="meta">Aplikasi <strong>Laundry</strong> — manajemen bisnis laundry (pesanan, pelanggan, outlet, laporan)</p>
-      <p class="meta">Terakhir diperbarui: <time datetime="2026-03-25">25 Maret 2026</time></p>
+      <p class="meta">Aplikasi <strong>Capseran Laundry POS</strong> — sistem kasir &amp; manajemen bisnis laundry</p>
+      <p class="meta">Terakhir diperbarui: <time datetime="2026-10-20">20 Oktober 2026</time></p>
     </header>
 
-    <div class="notice">
-      <strong>Untuk Google Play Console:</strong> ganti teks dalam kurung siku seperti <code>[EMAIL_PRIVASI_ANDA]</code> dan <code>[NAMA_PENGEMBANG]</code> di bawah ini dengan kontak resmi Anda, lalu unggah folder ini ke hosting statis (mis. GitHub Pages, Netlify) dan masukkan URL halaman ini di bagian Kebijakan Privasi aplikasi.
-    </div>
-
     <p>
-      Kebijakan Privasi ini menjelaskan bagaimana <strong>[NAMA_PENGEMBANG]</strong> (“kami”) mengumpulkan, menggunakan, menyimpan, dan melindungi informasi ketika Anda menggunakan aplikasi seluler <strong>Laundry</strong> (selanjutnya “Aplikasi”) pada perangkat Android.
+      Kebijakan Privasi ini menjelaskan bagaimana <strong>Capseran</strong> ("kami") mengumpulkan, menggunakan, menyimpan, dan melindungi informasi ketika Anda menggunakan aplikasi seluler <strong>Capseran Laundry POS</strong> (selanjutnya "Aplikasi") pada perangkat Android.
     </p>
     <p>
       Dengan menggunakan Aplikasi, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini. Jika Anda tidak setuju, mohon hentikan penggunaan Aplikasi.
@@ -97,105 +84,150 @@
     <p>
       Aplikasi ditujukan untuk pemilik atau pengelola usaha laundry dalam mengelola operasional (misalnya data pesanan, pelanggan, layanan, pembayaran, pengeluaran, laporan, dan pengaturan outlet). Aplikasi memerlukan akun dan koneksi internet untuk berfungsi penuh.
     </p>
+    <p>
+      Kebijakan ini berlaku untuk akun pemilik usaha maupun akun kasir yang dibuat oleh pemilik usaha di dalam Aplikasi.
+    </p>
 
     <h2>2. Informasi yang kami kumpulkan</h2>
     <div class="card">
       <p><strong>a) Data akun dan autentikasi</strong></p>
       <ul>
-        <li>Alamat email dan kredensial akun saat Anda mendaftar atau masuk dengan email/kata sandi.</li>
-        <li>Identifier akun dan profil dasar dari layanan masuk pihak ketiga jika Anda memilih <strong>Masuk dengan Google</strong> atau <strong>Sign in with Apple</strong>, sesuai izin yang Anda berikan kepada penyedia tersebut.</li>
-        <li>Data yang diperlukan untuk pemulihan kata sandi (mis. email reset), diproses oleh penyedia autentikasi kami.</li>
+        <li>Alamat email dan kata sandi saat Anda mendaftar atau masuk dengan email. Kata sandi disimpan dalam bentuk hash oleh penyedia autentikasi kami dan tidak pernah kami lihat dalam bentuk aslinya.</li>
+        <li>Jika Anda memilih <strong>Masuk dengan Google</strong>: alamat email, nama, dan foto profil akun Google Anda, sesuai izin yang Anda berikan kepada Google.</li>
+        <li>Alamat email yang dipakai untuk pengiriman tautan verifikasi email dan pemulihan kata sandi.</li>
+        <li>Jika Anda membuat akun kasir: nama, alamat email, kata sandi awal yang Anda tetapkan, daftar hak akses, dan outlet yang ditugaskan kepada kasir tersebut.</li>
       </ul>
       <p><strong>b) Data operasional bisnis yang Anda input</strong></p>
       <ul>
-        <li>Informasi terkait outlet/usaha, pesanan laundry, pelanggan, layanan, pembayaran, pengeluaran, dan data lain yang Anda simpan melalui Aplikasi.</li>
-        <li>Berkas gambar yang Anda unggah atau pilih (mis. melalui fitur pemilih gambar), jika digunakan dalam alur kerja Aplikasi.</li>
-        <li>Preferensi lokal pada perangkat (mis. pengaturan bahasa atau preferensi terkait fitur), melalui penyimpanan lokal perangkat.</li>
+        <li>Profil outlet: nama usaha, alamat, nomor telepon, dan logo yang Anda unggah.</li>
+        <li>Data pelanggan laundry yang Anda catat: nama, nomor telepon, dan alamat. Anda bertanggung jawab memastikan Anda berhak menyimpan data pelanggan Anda di Aplikasi.</li>
+        <li>Pesanan, layanan, pembayaran, pengeluaran, metode pembayaran, serta pengaturan struk dan pesan.</li>
+        <li>Rekening bank yang Anda masukkan sebagai tujuan pembayaran transfer: nama bank, nama pemilik rekening, dan nomor rekening.</li>
       </ul>
-      <p><strong>c) Data teknis dan penggunaan</strong></p>
+      <p><strong>c) Notifikasi</strong></p>
       <ul>
-        <li>Informasi teknis standar yang dikirim ke layanan backend (mis. log error ringan, metadata permintaan) sebagaimana diperlukan agar Aplikasi berjalan.</li>
-        <li>Jika layanan analitik Firebase diaktifkan pada proyek Anda, Google dapat memproses data penggunaan aplikasi sesuai konfigurasi Firebase dan kebijakan Google. Lihat bagian pihak ketiga di bawah.</li>
+        <li>Token perangkat dari Firebase Cloud Messaging beserta jenis platform, agar notifikasi push (pesanan baru, perubahan status pesanan, pembayaran, dan pengeluaran) dapat dikirim ke perangkat Anda.</li>
+        <li>Riwayat notifikasi di dalam Aplikasi: judul, isi, jenis, status dibaca, dan nama pengguna yang melakukan tindakan.</li>
+      </ul>
+      <p><strong>d) Langganan</strong></p>
+      <ul>
+        <li>Status langganan Pro, ID produk, ID pembelian dari Google Play, tanggal pembelian dan tanggal berakhir, serta jumlah transaksi selama masa uji coba. Pembayaran diproses oleh Google Play; kami tidak menerima nomor kartu atau data pembayaran Anda.</li>
+      </ul>
+      <p><strong>e) Data teknis dan preferensi</strong></p>
+      <ul>
+        <li>Metadata permintaan dan log teknis standar pada penyedia infrastruktur kami, sebatas yang diperlukan agar Aplikasi berjalan dan untuk menelusuri gangguan. Aplikasi tidak memasang SDK analitik atau pelaporan crash pihak ketiga.</li>
+        <li>Preferensi yang disimpan di perangkat Anda, misalnya bahasa, tema, printer yang dipilih, dan pengaturan struk.</li>
       </ul>
     </div>
 
-    <h2>3. Cara kami menggunakan informasi</h2>
+    <h2>3. Iklan (Google AdMob)</h2>
+    <p>
+      Aplikasi menampilkan iklan melalui <strong>Google AdMob</strong> khusus untuk pengguna paket gratis (free plan). Pengguna yang berlangganan paket berbayar (Pro) tidak akan melihat iklan.
+    </p>
+    <p>
+      AdMob dapat mengumpulkan dan menggunakan data tertentu untuk menampilkan iklan yang relevan, termasuk:
+    </p>
     <ul>
-      <li>Menyediakan fitur inti: autentikasi, penyimpanan data bisnis, sinkronisasi antar perangkat melalui backend cloud.</li>
+      <li>Identifikasi perangkat (Advertising ID Android)</li>
+      <li>Informasi perangkat dan sistem operasi</li>
+      <li>Data interaksi iklan (tayangan, klik)</li>
+    </ul>
+    <p>
+      Anda dapat mengatur ulang Advertising ID atau memilih keluar dari iklan berbasis minat melalui <strong>Pengaturan → Google → Iklan</strong> di perangkat Android Anda.
+    </p>
+    <p>
+      Informasi lebih lanjut tentang cara Google menggunakan data: <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer" target="_blank">policies.google.com/technologies/ads</a>.
+    </p>
+
+    <h2>4. Cara kami menggunakan informasi</h2>
+    <ul>
+      <li>Menyediakan fitur inti: autentikasi, penyimpanan data bisnis, serta sinkronisasi data antar perangkat dan antar akun pemilik dan kasir dalam satu usaha.</li>
       <li>Menampilkan dan mengelola pesanan, pelanggan, laporan, ekspor (mis. PDF/Excel), dan fitur terkait yang Anda gunakan.</li>
+      <li>Mengirim notifikasi push dan notifikasi di dalam Aplikasi tentang aktivitas usaha Anda, sesuai pengaturan notifikasi yang Anda pilih.</li>
+      <li>Mengaktifkan fitur Pro sesuai status langganan Anda dan menerapkan batas masa uji coba.</li>
+      <li>Menampilkan iklan untuk pengguna gratis melalui Google AdMob.</li>
       <li>Meningkatkan keamanan, mencegah penyalahgunaan, dan memperbaiki stabilitas Aplikasi.</li>
       <li>Memenuhi kewajiban hukum jika diwajibkan oleh peraturan yang berlaku.</li>
     </ul>
 
-    <h2>4. Penyimpanan, infrastruktur, dan keamanan</h2>
+    <h2>5. Penyimpanan, infrastruktur, dan keamanan</h2>
     <p>
-      Data disimpan dan diproses menggunakan layanan <strong>Google Firebase</strong> (antara lain Firebase Authentication, Cloud Firestore, dan Firebase Storage) serta infrastruktur terkait yang dipilih dalam pengembangan Aplikasi. Penyimpanan dapat berlokasi di wilayah atau pusat data sesuai konfigurasi proyek Firebase dan kebijakan Google.
+      Akun dan data bisnis Anda disimpan dan diproses menggunakan layanan <strong>Supabase</strong>: Supabase Auth untuk autentikasi, basis data PostgreSQL, Supabase Storage untuk logo outlet, dan Supabase Realtime untuk pembaruan data langsung. <strong>Firebase Cloud Messaging</strong> dari Google hanya digunakan untuk pengiriman notifikasi push.
     </p>
     <p>
-      Kami menerapkan praktik keamanan yang wajar secara industri (mis. komunikasi terenkripsi sesuai dukungan platform, kontrol akses berbasis akun). Namun, tidak ada metode transmisi atau penyimpanan elektronik yang sepenuhnya bebas risiko.
+      Kami menerapkan praktik keamanan yang wajar secara industri: komunikasi terenkripsi (HTTPS), kontrol akses berbasis akun, dan pembatasan akses baris data (row level security) sehingga setiap akun hanya dapat membaca data usahanya sendiri. Namun, tidak ada metode transmisi atau penyimpanan elektronik yang sepenuhnya bebas risiko.
+    </p>
+    <p>
+      Logo outlet yang Anda unggah disimpan pada penyimpanan publik agar dapat ditampilkan di dalam Aplikasi. Siapa pun yang memiliki tautannya dapat melihat berkas logo tersebut, jadi jangan mengunggah gambar yang bersifat rahasia.
     </p>
 
-    <h2>5. Berbagi informasi dengan pihak ketiga</h2>
+    <h2>6. Berbagi informasi dengan pihak ketiga</h2>
     <p>
-      Kami tidak menjual data pribadi Anda. Kami dapat mengandalkan penyedia layanan untuk menjalankan Aplikasi, antara lain:
+      Kami tidak menjual data pribadi Anda. Kami dapat mengandalkan penyedia layanan berikut:
     </p>
     <ul>
-      <li><strong>Google LLC</strong> — Firebase, autentikasi, penyimpanan cloud, dan layanan terkait. Kebijakan privasi Google: <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">policies.google.com/privacy</a>; informasi privasi Firebase: <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer" target="_blank">firebase.google.com/support/privacy</a>.</li>
-      <li><strong>Apple Inc.</strong> — jika Anda menggunakan Sign in with Apple: <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer" target="_blank">apple.com/legal/privacy</a>.</li>
-      <li><strong>WhatsApp</strong> atau aplikasi lain — hanya jika Anda secara eksplisit memilih membagikan konten (mis. struk atau teks) melalui fitur bagikan di perangkat; pembagian tersebut mengikuti kebijakan aplikasi pihak ketiga tersebut.</li>
+      <li><strong>Supabase, Inc.</strong> — autentikasi, basis data, penyimpanan berkas, dan pembaruan data langsung. Kebijakan privasi: <a href="https://supabase.com/privacy" rel="noopener noreferrer" target="_blank">supabase.com/privacy</a>.</li>
+      <li><strong>Google LLC</strong> — Firebase Cloud Messaging untuk notifikasi push, Masuk dengan Google, Google AdMob, dan Google Play untuk pembelian langganan. Kebijakan privasi: <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">policies.google.com/privacy</a>.</li>
+      <li><strong>WhatsApp</strong> atau aplikasi lain — hanya jika Anda secara eksplisit memilih membagikan konten (mis. struk atau berkas ekspor) melalui fitur bagikan di perangkat; mengikuti kebijakan aplikasi pihak ketiga tersebut.</li>
     </ul>
-
-    <h2>6. Izin perangkat (Android)</h2>
     <p>
-      Aplikasi dapat meminta izin berikut bila diperlukan untuk fitur yang Anda gunakan. Anda dapat menolak izin non-wajib; beberapa fitur mungkin tidak tersedia tanpa izin tersebut.
+      Berkas ekspor (PDF/Excel) dibuat dan disimpan di perangkat Anda, dan hanya berpindah ke pihak lain jika Anda membagikannya.
     </p>
+    <p>
+      Akun kasir yang Anda buat dapat mengakses data usaha Anda sesuai hak akses dan outlet yang Anda tetapkan.
+    </p>
+
+    <h2>7. Izin perangkat (Android)</h2>
     <ul>
       <li><strong>Internet</strong> — untuk menghubungkan Aplikasi ke layanan cloud dan autentikasi.</li>
-      <li><strong>Kamera</strong> — untuk pemindaian kode QR atau keperluan serupa jika tersedia di Aplikasi.</li>
-      <li><strong>Kontak</strong> — untuk memilih nomor atau kontak pelanggan dengan izin Anda, jika Anda menggunakan fitur terkait.</li>
-      <li><strong>Bluetooth</strong> — untuk menghubungkan ke printer termal nirkabel, jika Anda menggunakan fitur cetak.</li>
-      <li><strong>Lokasi</strong> — pada versi Android tertentu, izin lokasi dapat diminta dalam konteks pemindaian Bluetooth; kami tidak menggunakan lokasi untuk pelacakan iklan dalam Aplikasi ini.</li>
+      <li><strong>Kamera</strong> — untuk pemindaian kode QR pada fitur lacak pesanan.</li>
+      <li><strong>Bluetooth</strong> — untuk terhubung ke printer termal yang sudah dipasangkan dengan perangkat Anda, jika Anda menggunakan fitur cetak.</li>
+      <li><strong>Notifikasi</strong> — untuk menampilkan notifikasi push dan notifikasi lokal. Anda dapat menolaknya tanpa kehilangan fitur lain.</li>
+      <li><strong>Kontak</strong> — hanya jika Anda memakai pemilih kontak untuk mengisi nama dan nomor pelanggan. Daftar kontak dibaca di perangkat untuk ditampilkan dalam pemilih; hanya kontak yang Anda pilih yang disimpan sebagai data pelanggan.</li>
+      <li><strong>Galeri atau foto</strong> — hanya saat Anda memilih gambar logo outlet melalui pemilih gambar sistem; gambar lain tidak diakses.</li>
+      <li><strong>ID iklan (Advertising ID)</strong> — digunakan oleh Google AdMob untuk pengguna paket gratis, sebagaimana dijelaskan pada bagian 3.</li>
     </ul>
 
-    <h2>7. Retensi dan penghapusan</h2>
+    <h2>8. Retensi dan penghapusan</h2>
     <p>
-      Data disimpan selama akun Anda aktif dan selama diperlukan untuk menyediakan layanan. Anda dapat meminta bantuan penghapusan data atau penutupan akun dengan menghubungi kami di alamat di bawah. Beberapa data dapat tetap disimpan untuk jangka waktu terbatas jika diwajibkan hukum atau untuk sengketa yang sah.
+      Data disimpan selama akun Anda aktif dan selama diperlukan untuk menyediakan layanan. Token notifikasi perangkat disimpan sampai data akun dihapus.
+    </p>
+    <p>
+      Anda dapat meminta penghapusan data atau penutupan akun, termasuk akun kasir yang Anda buat, dengan menghubungi kami di alamat pada bagian Kontak. Kami akan memproses permintaan tersebut dalam waktu yang wajar.
+    </p>
+    <p>
+      Preferensi dan berkas ekspor yang tersimpan di perangkat dapat Anda hapus sendiri dengan menghapus berkasnya atau mencopot pemasangan Aplikasi.
     </p>
 
-    <h2>8. Hak Anda</h2>
+    <h2>9. Hak Anda</h2>
     <p>
-      Bergantung pada hukum yang berlaku di wilayah Anda (termasuk ketentuan perlindungan data di Indonesia), Anda dapat berhak untuk mengakses, memperbaiki, menghapus, membatasi pemrosesan, atau menarik persetujuan tertentu. Untuk permintaan tersebut, hubungi kami melalui email di bawah.
+      Bergantung pada hukum yang berlaku di wilayah Anda, Anda dapat berhak untuk mengakses, memperbaiki, menghapus, atau membatasi pemrosesan data. Untuk permintaan tersebut, hubungi kami melalui email di bawah.
     </p>
 
-    <h2>9. Anak-anak</h2>
+    <h2>10. Anak-anak</h2>
     <p>
-      Aplikasi ditujukan untuk pengguna usia dewasa yang mengelola usaha laundry. Aplikasi tidak ditujukan untuk dikumpulkan informasi pribadi dari anak di bawah umur secara sengaja. Jika Anda percaya kami telah memproses data anak tanpa dasar yang sah, silakan hubungi kami.
+      Aplikasi ditujukan untuk pengguna dewasa yang mengelola usaha laundry. Kami tidak secara sengaja mengumpulkan data dari anak di bawah 13 tahun.
     </p>
 
-    <h2>10. Perubahan kebijakan</h2>
+    <h2>11. Perubahan kebijakan</h2>
     <p>
-      Kami dapat memperbarui Kebijakan Privasi ini sewaktu-waktu. Perubahan material akan diberitahukan melalui pembaruan tanggal di bagian atas halaman ini dan/atau pemberitahuan dalam Aplikasi jika memungkinkan.
+      Kami dapat memperbarui Kebijakan Privasi ini sewaktu-waktu. Perubahan material akan diberitahukan melalui pembaruan tanggal di bagian atas halaman ini.
     </p>
 
-    <h2>11. Kontak</h2>
+    <h2>12. Kontak</h2>
     <div class="card">
       <p>
         Untuk pertanyaan privasi atau permintaan terkait data pribadi, hubungi:
       </p>
       <p>
-        <strong>[NAMA_PENGEMBANG]</strong><br />
-        Email: <a href="mailto:[EMAIL_PRIVASI_ANDA]">[EMAIL_PRIVASI_ANDA]</a>
-      </p>
-      <p class="meta" style="margin-bottom:0;">
-        Ganti placeholder di atas sebelum mempublikasikan halaman ini.
+        <strong>Capseran</strong><br />
+        Email: <a href="mailto:hadisaputra55@gmail.com">hadisaputra55@gmail.com</a>
       </p>
     </div>
 
     <footer>
-      <p>© <span id="y"></span> [NAMA_PENGEMBANG]. Hak cipta dilindungi undang-undang yang berlaku.</p>
-      <script>
-        document.getElementById("y").textContent = new Date().getFullYear();
-      </script>
+      <p>© <span id="y"></span> Capseran. Hak cipta dilindungi undang-undang yang berlaku.</p>
+      <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
     </footer>
   </div>
 </body>
